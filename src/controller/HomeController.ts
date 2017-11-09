@@ -10,7 +10,6 @@ export default class extends BaseController{
     async index(req: express.Request, res: express.Response){
         res.send('hello1')
     }
-
     print(){
         console.log(1)
     }
